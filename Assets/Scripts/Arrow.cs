@@ -1,22 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using static UnityEngine.RuleTile.TilingRuleOutput;
 
 public class Arrow : MonoBehaviour
+
+
 {
     public float speed = 4.5f;
-
+    public float delai = 2f;
+    public ParticleSystem effetDeParticule;
 
 
     void Start()
     {
-        Invoke("DestroyObject", 4f);
+        Destroy(gameObject,delai);
     }
 
-    void DestroyObject()
-    {
-        Destroy(gameObject);
-    }
+  
 
     // Update is called once per frame
     void Update()
@@ -24,9 +26,14 @@ public class Arrow : MonoBehaviour
         transform.position += transform.right * Time.deltaTime * speed;
     }
 
+    private void OnDestroy()
+    {
+        Instantiate(effetDeParticule, transform.position, transform.rotation);
+    }
+   
+
     private void OnCollisionEnter2D (Collision2D collision)
     {
-        Instantiate(destroyEffect, objectToDestroy.transform.position, Quaternion.identity);
-        Destroy(gameObject);
+      Destroy(gameObject);
     }
 }

@@ -5,14 +5,16 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed;
     public float jumpForce;
 
-    public bool isJumping;
-    public bool isGrounded;
+    private bool isJumping;
+    private bool isGrounded;
 
     public Transform groundCheckLeft;
     public Transform groundCheckRight;
 
     public Rigidbody2D rb;
-       private Vector3 velocity = Vector3.zero;
+    public Animator animator;
+
+    private Vector3 velocity = Vector3.zero;
 
 
     void FixedUpdate()
@@ -24,7 +26,11 @@ public class PlayerMovement : MonoBehaviour
         {
             isJumping = true;
         }
+
         MovePlayer(horizontalMovement);
+
+        float characterVelocity = Mathf.Abs(rb.velocity.x);
+        animator.SetFloat("Speed", characterVelocity);
     }
 
     void MovePlayer(float _horizontalMovement)

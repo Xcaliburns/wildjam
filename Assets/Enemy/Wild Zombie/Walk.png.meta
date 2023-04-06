@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 200e09afd504b3d4883285407c4b2aa2
+guid: 781f6c40fde82ad43958529a3ec3e22b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,201 +117,96 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChikBoy_run_0
+      name: Walk_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6def3d47994fcfd409170c81e0062d1a
-      internalID: 1760738689
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChikBoy_run_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0bb7687a8b31e6341b98b5ca227de89a
-      internalID: -2105948185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChikBoy_run_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ecf239ac631419409cab93b9236ce97
-      internalID: -1014628016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChikBoy_run_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c773047777f0b34b89a6a377ff6a266
-      internalID: -1003148420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChikBoy_run_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 191376d8993989a48bef3121518859e4
-      internalID: 60318025
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChikBoy_run_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eee9227782c41864e96b78f7c3c34f25
-      internalID: -1451045276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChikBoy_run_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aea23e7fa33cd2f45a79384322909186
-      internalID: 1511003931
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChikBoy_run_7
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d4504741d7bb3f4e8ccc1f01c579d28
-      internalID: -1922330749
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChikBoy_run_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c9afe81dc9cdea449f4d5154bb6327b
-      internalID: 495292662
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChikBoy_run_9
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 18
         y: 0
-        width: 32
+        width: 51
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6d4874159a4814689130ef874a681c
+      internalID: 197769024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 0
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07642c5cc862444998782b876e2c7fe
+      internalID: -311428875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 63
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a5f72095807dc4eab52a0102ee04f4
+      internalID: 313179623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_3
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700a0ff03751d5e4989bc911972a2644
+      internalID: 1895437812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_4
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 0
+        width: 58
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -320,8 +215,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98f08d9bb6ac98045b345e3ce1f42eff
-      internalID: -561583095
+      spriteID: 42c4bac11e17a6a4f87de0785347f000
+      internalID: 1057878419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_5
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 0
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab16fb81faecf3746b19b1da0fbc60b3
+      internalID: -858711885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_6
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 0
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e69a414fee2384aa446220278c2fc2
+      internalID: -857602589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_7
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 0
+        width: 63
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec559eda6d4344444b9bcde50db2ef2c
+      internalID: -355566252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_8
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 0
+        width: 55
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2dbe3da991d7742819ac683a2bbd7e
+      internalID: 812782538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_9
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 0
+        width: 57
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a7ddc8d8e410741badb1973cae29f4
+      internalID: 375064710
       vertices: []
       indices: 
       edges: []
@@ -337,16 +337,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ChikBoy_run_0: 1760738689
-      ChikBoy_run_1: -2105948185
-      ChikBoy_run_2: -1014628016
-      ChikBoy_run_3: -1003148420
-      ChikBoy_run_4: 60318025
-      ChikBoy_run_5: -1451045276
-      ChikBoy_run_6: 1511003931
-      ChikBoy_run_7: -1922330749
-      ChikBoy_run_8: 495292662
-      ChikBoy_run_9: -561583095
+      Walk_0: 197769024
+      Walk_1: -311428875
+      Walk_2: 313179623
+      Walk_3: 1895437812
+      Walk_4: 1057878419
+      Walk_5: -858711885
+      Walk_6: -857602589
+      Walk_7: -355566252
+      Walk_8: 812782538
+      Walk_9: 375064710
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

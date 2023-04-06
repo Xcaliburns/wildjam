@@ -15,25 +15,31 @@ public class Arrow : MonoBehaviour
 
     void Start()
     {
-        Destroy(gameObject,delai);
+        Destroy(gameObject, delai);
     }
 
-  
+
 
     // Update is called once per frame
     void Update()
     {
-        transform.position += transform.right * Time.deltaTime * speed;
+        transform.position += transform.right * -1 * Time.deltaTime * speed;
     }
 
     private void OnDestroy()
     {
         Instantiate(effetDeParticule, transform.position, transform.rotation);
     }
-   
 
-    private void OnCollisionEnter2D (Collision2D collision)
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-      Destroy(gameObject);
+        if (collision.collider.gameObject.tag != "canon" && collision.collider.gameObject.tag != "Enemy")
+        {
+
+            Destroy(gameObject);
+        }
+
     }
+       
 }

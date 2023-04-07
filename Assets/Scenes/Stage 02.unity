@@ -820,6 +820,18 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6329502690495172856, guid: 1a5b14fc8c2147b429479b39608b4eab, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6329502690495172856, guid: 1a5b14fc8c2147b429479b39608b4eab, type: 3}
+      propertyPath: m_Interpolate
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6329502690495172857, guid: 1a5b14fc8c2147b429479b39608b4eab, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6329502690495172858, guid: 1a5b14fc8c2147b429479b39608b4eab, type: 3}
       propertyPath: m_FlipX
       value: 0
@@ -830,11 +842,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6329502690495172859, guid: 1a5b14fc8c2147b429479b39608b4eab, type: 3}
       propertyPath: jumpForce
-      value: 250
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 6329502690495172859, guid: 1a5b14fc8c2147b429479b39608b4eab, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6329502690495172859, guid: 1a5b14fc8c2147b429479b39608b4eab, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 2089827173}
+    - target: {fileID: 6329502690495172860, guid: 1a5b14fc8c2147b429479b39608b4eab, type: 3}
+      propertyPath: m_Radius
+      value: 0.33979475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6329502690495172860, guid: 1a5b14fc8c2147b429479b39608b4eab, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6329502690495172860, guid: 1a5b14fc8c2147b429479b39608b4eab, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.029261788
       objectReference: {fileID: 0}
     - target: {fileID: 6329502690495172861, guid: 1a5b14fc8c2147b429479b39608b4eab, type: 3}
       propertyPath: m_RootOrder
@@ -22877,6 +22905,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72a905bcc22e3e443be6f48bfb173c00, type: 3}
+--- !u!212 &2089827173 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6329502690495172858, guid: 1a5b14fc8c2147b429479b39608b4eab, type: 3}
+  m_PrefabInstance: {fileID: 216892911}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2090740136 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5539573807616245569, guid: 25f9f2235afcaca429284c9aec8982df, type: 3}

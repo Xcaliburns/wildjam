@@ -8,6 +8,7 @@ TagManager:
   - FxTemporaire
   - canon
   - deco
+  - PlayerSpawn
   layers:
   - Default
   - TransparentFX

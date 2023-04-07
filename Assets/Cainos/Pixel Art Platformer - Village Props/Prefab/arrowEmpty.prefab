@@ -47,8 +47,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b19275f794c66994eb9efa65221f5867, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6.13
-  delai: 3.98
+  speed: 8.99
+  delai: 2.2
   effetDeParticule: {fileID: 198194127032045410, guid: 46876a2780737ec45a19d62f88e5ce56, type: 3}
 --- !u!61 &6503180132860807555
 BoxCollider2D:
@@ -96,7 +96,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 2
 --- !u!1001 &5474638752719580280
 PrefabInstance:
   m_ObjectHideFlags: 0

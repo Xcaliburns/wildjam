@@ -20749,7 +20749,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 1162034429}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 0ab98e7c73436ba419e2868fcbb59c16, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -22843,7 +22843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5a73eb7b66c7dc40850a4f232da3cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToDestroy: {fileID: 2020986124}
+  objectToDestroy: {fileID: 686881156}
 --- !u!1001 &2079045477
 PrefabInstance:
   m_ObjectHideFlags: 0

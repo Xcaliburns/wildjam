@@ -34,7 +34,7 @@ public class Arrow : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.gameObject.tag != "canon" && collision.collider.gameObject.tag != "Enemy")
+        if (collision.collider.gameObject.tag == "Untagged ")
         {
 
             Destroy(gameObject);
